@@ -1,13 +1,14 @@
-package miniplc0java.Analyser;
+package miniplc0java.syn;
 
 public enum StackEnum {
     INT,
     DOUBLE,
     ADDR,
     BOOL;
+
     @Override
-    public String toString(){
-        switch (this){
+    public String toString() {
+        switch (this) {
             case INT:
                 return "int";
             case DOUBLE:

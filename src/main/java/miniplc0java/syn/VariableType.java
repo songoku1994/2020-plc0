@@ -1,13 +1,14 @@
-package miniplc0java.Analyser;
+package miniplc0java.syn;
 
 public enum VariableType {
     INT,
     DOUBLE,
     VOID,
     STRING;
-//    FUNCTION,
-    public String toString(){
-        switch (this){
+
+    //    FUNCTION,
+    public String toString() {
+        switch (this) {
             case INT:
             case STRING:
                 return "int";
